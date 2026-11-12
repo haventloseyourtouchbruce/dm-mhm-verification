@@ -1,5 +1,5 @@
 # DM-MHM verification
-
+***private SDK evals deployable on request C++/Numpy Engine 
 1. **Origin.** DM-MHM emerged through FPGA experimentation on the processing cost of harmonic assignment in a signal-processing pipeline.
 2. **Research.** Further investigation connected the observed gains to established principles of efficient repeated matching, deterministic numerical decisions and independent verification; the contribution is the evaluated combination, not a claim that those principles are new.
 3. **Evidence and next steps.** Recorded software comparisons show lower latency on the selected workloads below. The verification suite checks the declared matching results and state continuity; further independent testing is required to establish performance and usefulness across additional systems and applications.
