@@ -1,0 +1,16 @@
+/build*/
+/results/
+/local-engines/
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.so.*
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.o
+*.obj
+.env*

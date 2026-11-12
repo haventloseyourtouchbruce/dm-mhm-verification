@@ -1,0 +1,6 @@
+DM-MHM Verification
+Copyright 2026 DM-MHM verification contributors
+
+The repository contains original verification material. It does not include
+optimized engine implementations, engine binaries, or vendor DSP libraries.
+Intel IPP and KFR are third-party products with separate license requirements.

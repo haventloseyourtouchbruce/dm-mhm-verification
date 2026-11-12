@@ -1,0 +1,23 @@
+{
+  "evidence_kind": "RECORDED_HISTORICAL_BUILD",
+  "unit": "microseconds_per_128_query_batch",
+  "peaks": 256,
+  "queries": 128,
+  "harmonic_orders": [1, 32],
+  "query_order": "ascending",
+  "tolerance_hz": 2,
+  "source_pdf_sha256": "cfd1a02895ba30e3cdd1aa8f28b53508ab2e704d04750496a682aa2fb1231eb1",
+  "source_pages": [2, 3],
+  "workloads": [
+    {"id": "wide-band", "query_hz": [100, 400], "targets_in_peak_range": 1073, "target_slots": 4096},
+    {"id": "in-range", "query_hz": [30, 60], "targets_in_peak_range": 4096, "target_slots": 4096}
+  ],
+  "implementations": [
+    {"name": "DM-MHM Standard", "wide_band_us": 9.889, "in_range_us": 11.040, "persistent_bytes": 2392},
+    {"name": "DM-MHM Automatic", "wide_band_us": 10.187, "in_range_us": 20.002, "persistent_bytes": 2392},
+    {"name": "Intel IPP 2026.1.0 exact matching adapter", "wide_band_us": 255.387, "in_range_us": 275.761, "persistent_bytes": 8632},
+    {"name": "KFR 7.2.0 integer matching adapter", "wide_band_us": 549.990, "in_range_us": 593.153, "persistent_bytes": 4536}
+  ],
+  "new_wrapper_measurements": "NOT_INCLUDED",
+  "additional_artifacts": "OWNER_SELECTION_PENDING"
+}
